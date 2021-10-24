@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Bullet
+  - LeftPoint
+  - RightPoint
+  - Border
   layers:
   - Default
   - TransparentFX
@@ -11,10 +15,10 @@ TagManager:
   - 
   - Water
   - UI
+  - Player
   - 
-  - 
-  - 
-  - 
+  - Border
+  - Ball
   - 
   - 
   - 
@@ -40,4 +44,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ball
+    uniqueID: 380572811
+    locked: 0
+  - name: Border
+    uniqueID: 2874079347
+    locked: 0
+  - name: New Layer
+    uniqueID: 4287622395
     locked: 0

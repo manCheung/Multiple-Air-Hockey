@@ -44,9 +44,14 @@ namespace Photon.Pun
 
             DestroyImmediate(go); 
         }
-        #endif
 
-        #if UNITY_EDITOR
+        public void RPC(string v, object masterClient)
+        {
+            throw new NotImplementedException();
+        }
+#endif
+
+#if UNITY_EDITOR
         [ContextMenu("Open PUN Wizard")]
         void OpenPunWizard()
         {
