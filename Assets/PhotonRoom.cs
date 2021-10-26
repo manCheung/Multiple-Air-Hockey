@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 
 public class PhotonRoom : MonoBehaviourPunCallbacks, IInRoomCallbacks
 {
-
+    /*
     public static PhotonRoom room;
     private PhotonView PV;
 
@@ -200,4 +200,5 @@ public class PhotonRoom : MonoBehaviourPunCallbacks, IInRoomCallbacks
     {
         PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "Player"), transform.position, Quaternion.identity, 0);
     }
+    */
 }

@@ -29,10 +29,14 @@ public class Ball : MonoBehaviour
     void OnCollisionEnter2D (Collision2D other){
         if(other.gameObject.CompareTag("LeftPoint")){
             Debug.Log("Touch Left");
+            //SpawnPlayers spawnPlayers = new SpawnPlayers();
+            //spawnPlayers.addScore("left");
         }
 
         if(other.gameObject.CompareTag("RightPoint")){
             Debug.Log("Touch Right");
+            //SpawnPlayers spawnPlayers = new SpawnPlayers();
+            //spawnPlayers.addScore("right");
         }
     }
 }
